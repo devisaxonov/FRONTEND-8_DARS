@@ -36,6 +36,8 @@
 .header-section .nav-section .nav-link{
     text-decoration: none;
     font-size: 20px;
+    color: black;
+
 }
 
 .nav-btn{
@@ -82,6 +84,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+.company-section .images-class{
+    filter: grayscale(100%) brightness(0);
+}
 .services{
     display: flex;
     flex-direction: row;
@@ -98,7 +104,7 @@
 }
 
 .services p{
-    font-size: 18px;
+    font-size: 20px;
     width: 550px;
 }
 
@@ -133,7 +139,11 @@
 }
 
 .box .left-box-top h3{
-    font-size: 40px;
+    font-size: 30px;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 16px;
+    padding: 8px;
     background-color: #B9FF66;
 }
 .left-box-bottom img {
