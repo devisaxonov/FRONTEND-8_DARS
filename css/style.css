@@ -121,6 +121,7 @@
     border: 1px solid black;
     padding: 60px;
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     background-color: #F3F3F3;
 }
@@ -146,6 +147,12 @@
     padding: 8px;
     background-color: #B9FF66;
 }
+.box:nth-child(1) .left-box-top h3{
+    background-color: #B9FF66;
+}
+.box:nth-child(4) .left-box-top h3{
+    background-color: #B9FF66;
+}
 .left-box-bottom img {
     background-color: black;
     padding: 5px;
@@ -164,4 +171,38 @@
 .box:nth-child(2){
     background-color: #B9FF66;
 }
+.box:nth-child(5){
+    background-color: #B9FF66;
+}
+.box:nth-child(3){
+    background-color: black;
+}
+.box:nth-child(6){
+    background-color: black;
+}
 
+.box .left-box-top h3{
+    background-color: white;
+}
+
+.box:nth-child(3) .left-box-bottom img {
+    background-color: white;
+}
+.box:nth-child(3) .left-box-bottom {
+    color: white;
+}
+.box:nth-child(6) .left-box-bottom img {
+    background-color: white;
+}
+.box:nth-child(6) .left-box-bottom {
+    color: white;
+}
+
+.box:nth-child(3) .left-box .left-box-bottom img{
+    filter: grayscale(100%) brightness(15);
+}
+
+.box .left-box .left-box-top{
+    display: flex;
+    flex-direction: column;
+}
